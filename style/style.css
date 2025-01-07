@@ -60,9 +60,15 @@
 }
 
 /* card design starts here */
+
+
 #card-box{
     width: 660px;
     height: 371px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 .subtitle-card-box{
@@ -75,7 +81,7 @@
     text-align: center;
     padding: 8px 0px 24px 0px;
 }
-.card-heading{
+section h2{
     width: 345px;
     height: 64px;
     color: rgb(16, 16, 16);
@@ -88,9 +94,12 @@
 .container{
     display: flex;
     gap: 12px;
+    width: auto;
+    height: 261px;
+    margin-top: 24px;
 }
-.card-1{
-    height: 464px;
+.card-1, .card-2, .card-3{
+    height: 400px;
     width: 212px;
     display: flex;
     flex-direction: column;
@@ -147,3 +156,23 @@
     border: none;
     padding: 16px;
     }
+    section> button{
+        text-align: center;
+        margin: 16px 0px 20px 0px;
+    }
+
+    /* card design ends here */
+
+
+    /* footer design starts here */
+
+.container-footer{
+    margin-top: 30px;
+    display: flex;
+}
+.content-footer{
+    background:linear-gradient( 0deg, rgba(255, 255, 255, 0.877) 100%,rgba(255, 255, 255, 0.788) 100%), url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
