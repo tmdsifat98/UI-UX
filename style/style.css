@@ -63,8 +63,10 @@
 
 
 #card-box{
-    width: 660px;
-    height: 371px;
+    margin: 20px auto;
+    /* width: 660px; */
+    width: 100vw;
+    height: 470px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,15 +97,17 @@ section h2{
     display: flex;
     gap: 12px;
     width: auto;
-    height: 261px;
+    height: 360px;
     margin-top: 24px;
 }
 .card-1, .card-2, .card-3{
-    height: 400px;
+    height: 340px;
     width: 212px;
+    border: 1px solid black;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    margin-bottom: 10px;
     align-items: center;
 }
 #card-box .heading{
@@ -156,18 +160,32 @@ section h2{
     border: none;
     padding: 16px;
     }
-    section> button{
-        text-align: center;
-        margin: 16px 0px 20px 0px;
+ section> button{
+    border-radius: 5px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    padding: 16px;
     }
+
 
     /* card design ends here */
 
 
     /* footer design starts here */
 
+footer{
+    display: flex;
+    align-items: center;
+}
+
 .container-footer{
-    margin-top: 30px;
+    margin: 60px auto;
     display: flex;
 }
 .image{
